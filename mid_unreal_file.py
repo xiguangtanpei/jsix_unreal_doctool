@@ -51,8 +51,8 @@ def remove_docstrings(file_path, output_path=None):
 if __name__ == "__main__":
     # 输入文件路径
     input_file = r"V:\A\Work\sp\LetGoArtCheckMid\LetsGo\Intermediate\PythonStub\unreal.py"
-    output_file = r"V:\A\Work\sp\LetGoArtCheckMid\LetsGo\Intermediate\PythonStubFile\unreal_file.py"
+    output_file = r"V:\A\Work\sp\LetGoArtCheckMid\LetsGo\Intermediate\PythonStubFile\unreal.py"
     remove_docstrings(input_file ,output_file)
     input_file = r"F:\LetsGoDevelop_ft_tools\LetsGo\Intermediate\PythonStub\unreal.py"
-    output_file = r"F:\LetsGoDevelop_ft_tools\LetsGo\Intermediate\PythonStubFile\unreal_file.py"
+    output_file = r"F:\LetsGoDevelop_ft_tools\LetsGo\Intermediate\PythonStubFile\unreal.py"
     remove_docstrings(input_file ,output_file)
